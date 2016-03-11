@@ -29,11 +29,7 @@ body {
     font-weight: 700;
 }
 
-.head-text {
-	color: #FFFFFF;
-	font-size:50px;
-	 font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
+
 
 /* Custom Button Styles */
 
@@ -41,6 +37,8 @@ body {
     border-radius: 100%;
     color: #fff;
     background-color: rgba(0,0,0,0.4);
+		border:2px solid white;
+
 }
 
 .btn-dark:hover,
@@ -48,6 +46,8 @@ body {
 .btn-dark:active {
     color: #fff;
     background-color: rgba(0,0,0,0.7);
+		border:4px solid white;
+
 }
 
 .btn-light {
@@ -66,7 +66,7 @@ body {
 /* Custom Horizontal Rule */
 
 hr.small {
-    max-width: 100px;
+    max-width: 150px;
 }
 
 /* Side Menu */
@@ -161,11 +161,18 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/TI.jpg) no-repeat center center scroll;
+    background: url(../img/circuit2.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.head-text {
+	
+	color: #FFF;
+	font-size:50px;
+	 font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 /* About */
@@ -205,15 +212,15 @@ hr.small {
 }
 
 .portfolio-item {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .img-portfolio {
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .img-portfolio:hover {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 /* Call to Action */
@@ -252,18 +259,18 @@ footer {
   color: white;
 }
 
-.content-23 .hero-unit {
+.hero-unit {
   text-align: center;
   padding: 0;
   margin: 0;
   background-color: transparent;
   
 }
-.content-23 .hero-unit h1 {
+.hero-unit h1 {
   margin: 0 0 30px;
   color: #ffffff;
 }
-.content-23 .hero-unit.hero-unit-bordered h1 {
+.hero-unit.hero-unit-bordered h1 {
   font-weight: normal;
   color: #ffffff;
   font-weight: 500;
@@ -272,7 +279,7 @@ footer {
   padding: 30px 40px;
 }
 
-.content-23.custom-bg {
+.custom-bg {
   background-image: url('../img/back.jpg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
